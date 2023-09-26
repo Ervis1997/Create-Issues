@@ -1,0 +1,100 @@
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+  }
+  
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h1,
+  h3 {
+    margin-bottom: 30px;
+  }
+  
+  .form-wrapper {
+    background-color: #eee;
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  
+  .form-group .form-control {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .btn-primary {
+    background-color: #37b;
+  }
+  
+  .btn-warning {
+    background-color: #f0ad4e;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+  }
+  
+  #issuesList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .issue-card {
+    flex: 1 1 auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 8px;
+  }
+  
+  .issue-card > * {
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    display: inline-block;
+    padding: 0.3rem;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.5rem;
+  }
+  
+  .label-info {
+    background-color: #5bc0de;
+  }
